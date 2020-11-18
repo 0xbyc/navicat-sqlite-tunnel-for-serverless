@@ -100,7 +100,7 @@ navicat SQLite Http通道适配Serverless
 
 调转到页面点击右上角`发布`
 
-![image-20201117191614024](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20201117191614024.png)
+![](https://cdn.jsdelivr.net/gh/cooldev-cn/cdn@latest/20201118094936.png)
 
 发布环境选择`发布`，备注随便填写，提交
 
