@@ -2,17 +2,17 @@
 
 navicat SQLite Http通道适配Serverless
 
-
-
 目前适配了腾讯云的Serverless,可以用navicate管理挂载到[云函数](https://cloud.tencent.com/product/scf)中的SQLite数据库
 
 
 
 ## 背景
 
-可以在云函数中挂载文件系统[CFS](https://cloud.tencent.com/product/cfs)当做数据盘用,像SQLite这种无依赖的数据库就很适合用在其中,做一个小型的数据库就很美滋滋,但无法使用Navicat这种的数据库管理工具去连接,方便查看数据库的数据,所幸的是Navicat里面提供了http通道,但是在serverless是没法使用的。
+可以在云函数中挂载文件系统[CFS](https://cloud.tencent.com/product/cfs)当做数据盘用,像SQLite这种无依赖的数据库就很适合用在其中,做一个小型的数据库就很美滋滋,但无法使用Navicat这种数据库管理工具去连接管理,所幸的是Navicat里面提供了http通道,但是在serverless是没法使用的。
 
+## 适配思路
 
+项目根目录下`ntunnel_sqlite.php`为navicat自带的http通道文件，基于这个文件修改让其可以在serverless环境下运行
 
 ## 部署
 
